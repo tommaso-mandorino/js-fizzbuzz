@@ -20,5 +20,20 @@ for (let i = 1; i <= 100; i++) {
 
     }
 
+    // IF finalString is empty
+    if (finalString === '') {
+
+        // Print index
+        console.log(i);
+
+    }
+    // ELSE print finalString
+    else {
+
+        // Print finalString
+        console.log(finalString)
+
+    }
+
 }
 // #endregion For loop from 1 to 100
