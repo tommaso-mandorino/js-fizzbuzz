@@ -12,5 +12,13 @@ for (let i = 1; i <= 100; i++) {
 
     }
 
+    // IF number is a multiple of 5
+    if (i % 5 == 0) {
+
+        // Add 'Buzz' to finalString
+        finalString += 'Buzz';
+
+    }
+
 }
 // #endregion For loop from 1 to 100
